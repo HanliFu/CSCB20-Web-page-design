@@ -1,0 +1,1 @@
+As a student user, the student must be able to see the information including course description, prerequisite, exclusion, instructor and link to other pages through the header when clicking on the home button.

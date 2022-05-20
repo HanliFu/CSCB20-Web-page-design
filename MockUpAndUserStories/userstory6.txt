@@ -1,0 +1,1 @@
+As a student user, the student must be able to see the information about lectures's title everyweek and download the powerpoint and worksheet of the course when clicking on the lectures button.

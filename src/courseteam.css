@@ -1,0 +1,281 @@
+@media screen and (min-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 30px;
+  }
+  .courseteam {
+    min-height: 100vh;
+    padding: 70px 20px;
+    background-color: #fad7a0;
+  }
+  .courseteam .card {
+    width: 25%;
+    float: left;
+    padding: 0px 15px;
+  }
+  .courseteam .card .box {
+    padding: 15px;
+    background-color: #fcf3cf;
+    border-radius: 10px;
+    transition: margin 0.5s ease, box-shadow 0.5s;
+  }
+
+  .courseteam .card .box:hover {
+    margin-top: -15px;
+    box-shadow: 0px 0px 20px #85929e;
+  }
+  .courseteam .card .box img {
+    width: 150px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+  .courseteam .card .box h4 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 15px 0px 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .courseteam .card .box h5 {
+    text-align: center;
+    margin: 0px 0px 10px;
+  }
+
+  .courseteam .card .box p {
+    text-align: center;
+    margin: 0px 0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #display {
+    padding-top: 50px;
+    min-height: 500px;
+    background: url("./img/watercolor5.jpg") no-repeat 0 -300px;
+    background-size: cover;
+    text-align: center;
+    color: #17202a;
+  }
+  #display h1 {
+    margin-top: 150px;
+    font-size: 55px;
+  }
+  .container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+  }
+  header {
+    background: #fdfefe;
+    color: #c5e1a5;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #17202a 5px solid;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  header a {
+    color: #17202a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  header li {
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+  }
+
+  header nav {
+    margin-left: 100px;
+  }
+
+  footer {
+    background: #fae5d3;
+    padding: 0px 0px;
+    height: 150px;
+    margin-top: auto;
+  }
+.right-texts {
+    padding-top: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+}
+  #footertext {
+    padding-right: 45px;
+  }
+
+  .containerlab a:link {
+    color: #000079;
+  }
+  .containerlab a:visited {
+    color: #921aff;
+  }
+  .containerlab a:hover {
+    color: #ddddff;
+  }
+  .containerlab a:active {
+    color: green;
+  }
+}
+
+/* for phone */
+@media only screen and (max-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 30px;
+  }
+  .courseteam {
+    min-height: 100vh;
+    padding: 70px 20px;
+    background-color: #fad7a0;
+  }
+  .courseteam .card {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .courseteam .card .box {
+    background-color: #fcf3cf;
+    border-radius: 10px;
+    transition: margin 0.5s ease, box-shadow 0.5s;
+  }
+
+  .courseteam .card .box:hover {
+    margin-top: -15px;
+    box-shadow: 0px 0px 20px #85929e;
+  }
+  .courseteam .card .box img {
+    width: 150px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+  .courseteam .card .box h4 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 15px 0px 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .courseteam .card .box h5 {
+    text-align: center;
+    margin: 0px 0px 10px;
+  }
+
+  .courseteam .card .box p {
+    text-align: center;
+    margin: 0px 0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #display {
+    padding-top: 50px;
+    background: url("./img/watercolor5.jpg") no-repeat 0 -300px;
+    background-size: cover;
+    text-align: center;
+    color: #17202a;
+  }
+  #display h1 {
+    margin-top: 150px;
+    font-size: 55px;
+  }
+  .container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+  }
+  header {
+    background: #fdfefe;
+    color: #c5e1a5;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #17202a 5px solid;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  header a {
+    color: #17202a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  header li {
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+  }
+
+  header nav {
+    margin-left: 100px;
+  }
+
+  footer {
+    background: #fae5d3;
+    padding: 0px 0px;
+    height: 150px;
+    margin-top: auto;
+  }
+  .right-texts {
+    padding-top: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+  }
+  #footertext {
+    padding-right: 45px;
+  }
+
+  .containerlab a:link {
+    color: #000079;
+  }
+  .containerlab a:visited {
+    color: #921aff;
+  }
+  .containerlab a:hover {
+    color: #ddddff;
+  }
+  .containerlab a:active {
+    color: green;
+  }
+}

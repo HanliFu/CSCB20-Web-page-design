@@ -1,0 +1,1 @@
+As a student user, the student must be able to see the information about course calendar and the pdf of the course syllabus when clicking on the syllabus button.

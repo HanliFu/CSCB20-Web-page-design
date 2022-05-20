@@ -1,0 +1,232 @@
+.containerass {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #eee;
+}
+.containerass div {
+  background: #eee;
+  margin: 3rem;
+}
+
+.assignmentpara {
+  background-color: white;
+  height: 300px;
+  margin-left: 10%;
+  width: 80%;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  text-align: center;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+}
+.text {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+}
+#display {
+  padding-top: 50px;
+  min-height: 500px;
+  background: url("./img/watercolor1.jpg") no-repeat 0 -600px;
+  background-size: cover;
+  text-align: center;
+  color: #17202a;
+}
+#display h1 {
+  margin-top: 150px;
+  font-size: 55px;
+}
+.container {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+header {
+  background: #fdfefe;
+  color: #c5e1a5;
+  padding-top: 30px;
+  min-height: 60px;
+  border-bottom: #17202a 5px solid;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+header a {
+  color: #17202a;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+}
+
+header nav {
+  margin-left: 100px;
+}
+
+footer {
+  background: #fae5d3;
+  padding: 0px 0px;
+  height: 150px;
+  margin-top: auto;
+}
+.containerforfooter {
+  max-width: 1500px;
+  margin: auto;
+  padding: 0px 400px;
+  display: flex;
+  align-items: center;
+}
+.right-texts {
+    padding-top: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+}
+#footertext {
+  padding-right: 45px;
+}
+
+.containerass a:link {
+  color: #000079;
+}
+.containerass a:visited {
+  color: #921aff;
+}
+.containerass a:hover {
+  color: #ddddff;
+}
+.containerass a:active {
+  color: green;
+}
+
+/* for phone */
+@media only screen and (max-width: 992px) {
+  .containerass {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #eee;
+  }
+  .containerass div {
+    background: #eee;
+    margin: 3rem;
+  }
+
+  .assignmentpara {
+    background-color: white;
+    height: 300px;
+    margin-left: 10%;
+    width: 80%;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    text-align: center;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+  }
+  .text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+  }
+  #display {
+    padding-top: 50px;
+    min-height: 500px;
+    background: url("./img/watercolor1.jpg") no-repeat 0 -600px;
+    background-size: cover;
+    text-align: center;
+    color: #17202a;
+  }
+  #display h1 {
+    margin-top: 150px;
+    font-size: 55px;
+  }
+  .container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+  }
+  header {
+    background: #fdfefe;
+    color: #c5e1a5;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #17202a 5px solid;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  header a {
+    color: #17202a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  header li {
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+  }
+
+  header nav {
+    margin-left: 100px;
+  }
+
+  footer {
+    background: #fae5d3;
+    padding: 0px 0px;
+    height: 150px;
+    margin-top: auto;
+  }
+  .containerforfooter {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px 400px;
+    display: flex;
+    align-items: center;
+  }
+  .right-texts {
+    padding-top: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+  }
+  #footertext {
+    padding-right: 45px;
+  }
+
+  .containerass a:link {
+    color: #000079;
+  }
+  .containerass a:visited {
+    color: #921aff;
+  }
+  .containerass a:hover {
+    color: #ddddff;
+  }
+  .containerass a:active {
+    color: green;
+  }
+}
